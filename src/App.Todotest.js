@@ -10,4 +10,3 @@ it("matches snapshot", function() {
   const { asFragment } = render(<App />);
   expect(asFragment()).toMatchSnapshot();
 });
-
